@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+class user {
+	String name;
+	String user_id;
+	int age;
+	public User() {
+		
+	}
+	public user(String name, String user_id, int age) {
+		name = Name;
+		user_id = user_id;
+		age = Age;
+	}
+		System.out.println("The saved details are:");
+		public String toString()
+		{
+		 	return "Name: "+u.name+"\nAge: "+u.age+"\nEmail Id: "+u.user_id;
+		}
+}
+
+public class Details {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		String name,user_id;
+		int age;
+		System.out.println("Enter User Name:");
+		name=in.nextLine();
+		System.out.println("Enter User Email Id:");
+		user_id=in.nextLine();
+		System.out.println("Enter User age:");
+		age=in.nextInt();
+		System.out.println("The saved details are:");
+		user u=new user(name,user_id,age);
+		System.out.println("Generated account id: ws_100929");
+		System.out.println("Thank you for logging in!");
+		in.close();
+
+		
+	}
+}
