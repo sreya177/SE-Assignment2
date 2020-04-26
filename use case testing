@@ -32,7 +32,7 @@ public class Details {
 		age=in.nextInt();
 		System.out.println("The saved details are:");
 		user u=new user(name,user_id,age);
-		System.out.println("Generated account id: ws_100929");
+		System.out.println("Generated account id: ws_10092931");
 		System.out.println("Thank you for logging in!");
 		System.out.println("Sign out!");
 		in.close();
